@@ -1,0 +1,93 @@
+{
+    "run": "run1",
+    "unit": "lane1",
+    "sample": "test_sample",
+    "normalization_factor": 1.2334,
+    "viral_list": [
+        {
+            "name": "Hepatitis_B_Virus",
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Human_Immunodeficiency_Virus_1",
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Human_Immunodeficiency_Virus_2",
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Human_erythrovirus_V9",
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Human_herpesvirus_1",
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Human_herpesvirus_2",
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Human_herpesvirus_5",
+            "count": 70,
+            "normalized": 56.75368898978434
+        },
+        {
+            "name": "Parvovirus_B19",
+            "count": 0,
+            "normalized": 0.0
+        }
+    ],
+    "family_list": [
+        {
+            "name": "Hepatitis_B",
+            "contains": [
+                "Hepatitis_B_Virus"
+            ],
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "HIV",
+            "contains": [
+                "Human_Immunodeficiency_Virus_1",
+                "Human_Immunodeficiency_Virus_2"
+            ],
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Parvovirus",
+            "contains": [
+                "Human_erythrovirus_V9",
+                "Parvovirus_B19"
+            ],
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Herpes_simplex",
+            "contains": [
+                "Human_herpesvirus_1",
+                "Human_herpesvirus_2"
+            ],
+            "count": 0,
+            "normalized": 0.0
+        },
+        {
+            "name": "Cytomegalovirus",
+            "contains": [
+                "Human_herpesvirus_5"
+            ],
+            "count": 70,
+            "normalized": 56.75368898978434
+        }
+    ]
+}
